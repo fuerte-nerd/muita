@@ -63,7 +63,7 @@ const Welcome = ({ dispatch, isOpen, onStart, welcome }) => {
         </Typography>
         <Typography style={{ fontFamily: "Roboto" }} paragraph>
           MuiTA (Material UI Theme Assistant) is a tool to help you quickly and
-          intuitively find a Material UI theme for your next React project!
+          intuitively create Material UI themes for your React projects!
         </Typography>
         <Divide />
         <Typography variant="h4" style={{ fontFamily: "Roboto" }}>
@@ -98,9 +98,12 @@ const Welcome = ({ dispatch, isOpen, onStart, welcome }) => {
           "I would like to help improve MuiTA..."
         </Typography>
         <Typography style={{ fontFamily: "Roboto" }} paragraph>
-          Great! Please feel free to fork the repo on GitHub and play with it!
-          There is a lot more functionality that could be built into the app,
-          but time is my enemy! ;)
+          Great! Please feel free to fork the repo on{" "}
+          <Link href="https://github.com/fuerte-nerd/muita" target="_blank">
+            GitHub
+          </Link>{" "}
+          and play with it! There is a lot more functionality that could be
+          built into the app, but time is my enemy! ;)
         </Typography>
         <Divide />
         <Typography variant="h4" style={{ fontFamily: "Roboto" }}>

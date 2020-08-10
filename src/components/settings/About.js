@@ -22,7 +22,7 @@ const About = ({ dispatch }) => {
         break;
       case "github":
       case "github-btn":
-        window.open("https://github.com", "_blank");
+        window.open("https://github.com/fuerte-nerd/muita", "_blank");
         break;
       case "email":
       case "email-btn":
